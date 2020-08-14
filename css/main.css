@@ -1,5 +1,31 @@
 @charset "utf-8";
 /* CSS Document */
+
+@font-face
+{
+    font-family: fontdemo;
+    src: url("../font/Ubuntu-Bold.ttf");
+}
+
+@font-face
+{
+    font-family: fontdemo2;
+    src: url("../font/Ubuntu-Medium.ttf");
+}
+
+@font-face
+{
+    font-family: fontdemo3;
+    src: url("../font/Ubuntu-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: fontdemo4;
+    src: url("../font/Ubuntu-Light.ttf");
+}
+
+
 *{margin: 0px; padding: 0px;}
 
 /*header*/
@@ -17,6 +43,7 @@
     width: 50%;
     height: 50px;
     float: left;
+    font-family: fontdemo;
     
 }
 
@@ -39,6 +66,7 @@ h1
 ul
 {
     list-style: none;
+    font-family: fontdemo2;
 }
 
 ul li
@@ -114,6 +142,7 @@ h2
     float: left;
     padding: 20px;
     font-size: 17px;
+    font-family: fontdemo3;
 }
 
 #textmenu h3 a
@@ -245,6 +274,7 @@ h3
 {
     color: #FFFFFF;
     font-size: 15px;
+    font-family: fontdemo4;
 }
 
 
