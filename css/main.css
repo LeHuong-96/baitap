@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0px; padding: 0px;}
+
+/*header*/
+.header
+{
+    width: 100%;
+    height: 70px;
+    background:#B774B0;
+    display: flex;
+    align-items: center;
+}
+
+.logo
+{
+    width: 50%;
+    height: 50px;
+    float: left;
+    
+}
+
+h1
+{
+    color:#FEFAFA;
+    line-height: 50px;
+    margin-left: 70px;
+}
+
+
+.menu
+{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    float: right;
+    padding: 20px;
+    
+}
+
+ul li a
+{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 20px;
+}
+
+
+/*banner*/
+.banner
+{
+    width: 100%;
+    height: 400px;
+    background: #A65C5E;
+    
+}
+
+.img
+{
+    background: url("../images/how-to-whitewash-furniture-1555616350.jpg");
+    width:100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.khunggiua
+{
+    width: 35%;
+    height: 200px;
+    background:rgba(0,0,0,1.00);
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h2
+{
+    color:rgba(255,254,254,1.00);
+}
+
+
+/*items*/
+
+.menu2
+{
+    width:100%;
+    height: 90px;
+    background: #B774B0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ #textmenu h3
+{
+    float: left;
+    padding: 20px;
+    font-size: 17px;
+}
+
+#textmenu h3 a
+{
+    text-decoration: none;
+    color:#FFFFFF;
+
+}
+
+
+/*items*/
+
+.items
+{
+    width: 70%;
+    background: #985355;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.boxitem
+{
+    width: 30%;
+    height: 250px;
+    background: #CDB6B6;
+    float: left;
+    margin: 10px;
+
+}
+
+.hinh1
+{
+    background: url("../images/6b4adfbf4af9da7ba6f1024919d93a0d.jpg");
+    widows: 30%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hinh2
+{
+    background: url("../images/7eb9e599202cb94e5623370ac46eeb7c.jpg");
+    widows: 30%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hinh3
+{
+    background: url("../images/299d4643935babf0c4bcb53f4d53fcfe.jpg");
+    widows: 30%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hinh4
+{
+    background: url("../images/040bcc2a2384593702632538fcbca1ff.jpg");
+    widows: 30%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hinh5
+{
+    background: url("../images/05112020-furniture-PopCat_2.jpg");
+    widows: 30%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hinh6
+{
+    background:url("../images/070320_super_m_furniture_bed.jpg");
+    widows: 30%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hinh7
+{
+    background: url("../images/chesterfield-fabric-queen-anne-high-back-wing-chair-duck-egg-blue-yew-feet.jpg");
+    widows: 30%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hinh8
+{
+    background: url("../images/Furniture__Gateway_LP_SS_06.jpg");
+    widows: 30%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hinh9
+{
+    background: url("../images/chesterfield-queen-anne-high-back-wing-chair-uk-manufactured-antique-brown.jpg");
+    widows: 30%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clear{clear:both;}
+
+/*footer*/
+
+.footer
+{
+    width: 100%;
+    height: 80px;
+    background: #B774B0;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h3
+{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+
+
+
+
+
